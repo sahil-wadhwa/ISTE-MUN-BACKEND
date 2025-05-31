@@ -6,6 +6,7 @@ const registerUser = asyncHandler(async (req, res) => {
   const registrationData = req.body;
 
   // Save registration to DB
+  console.log("userData:", registrationData);
   const newRegistration = await Registration.create(registrationData);
   console.log("called........");
 
@@ -15,6 +16,8 @@ const registerUser = asyncHandler(async (req, res) => {
       newRegistration.email,
       newRegistration.fullName
     );
+
+    return res.json({"Message":"user registered"})
   } catch (error) {
     console.error("Email sending failed:", error);
     // Optional: you can still return success response if email fails
