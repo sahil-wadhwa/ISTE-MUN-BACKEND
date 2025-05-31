@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler");
-const Registration = require("../models/Registration");
+const Registration = require("../models/ab");
 const { sendConfirmationEmail } = require("../utils/emailService");
 
 const registerUser = asyncHandler(async (req, res) => {
