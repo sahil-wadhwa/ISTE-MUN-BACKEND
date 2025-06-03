@@ -89,9 +89,9 @@ const sendConfirmationEmail = async (toEmail, fullName) => {
         Please <u>do not make any payments</u> to unofficial sources. All official communication and updates will be shared by the CUMUN 2025 team only.</p>
 
         <p>Stay connected with us on Instagram for real-time updates on <strong>portfolio matrix releases</strong>, <strong>event announcements</strong>, and more:<br/>
-        👉 <a href="https://www.instagram.com/cumunofficial" style="color: #2980b9;">@cumunofficial</a></p>
+        👉 <a href="https://instagram.com/iste.cuchandigarh" style="color: #2980b9;">@cumunofficial</a></p>
 
-        <p>If you have any queries, feel free to contact us at <a href="mailto:iste.cu@chandigarh.edu">iste.cu@chandigarh.edu</a></p>
+        <p>If you have any queries, feel free to contact us at <a href="mailto: iste@cumail.in ">iste.cu@chandigarh.edu</a></p>
 
         <p>Warm regards,<br/>
         <strong>Team CUMUN 2025</strong><br/>
