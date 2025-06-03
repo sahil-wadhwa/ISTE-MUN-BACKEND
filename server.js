@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://mun-iste.vercel.app/", // or your frontend URL
+    origin: "https://mun-iste.vercel.app", // or your frontend URL
     credentials: true,
   })
 );
