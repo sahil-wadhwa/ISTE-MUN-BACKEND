@@ -10,8 +10,12 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 dotenv.config();
 
 const app = express();
-
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://mun-iste.vercel.app/", // or your frontend URL
+    credentials: true,
+  })
+);
 app.use(express.json()); // Body parser middleware
 
 app.use("/api", registrationRoutes);
