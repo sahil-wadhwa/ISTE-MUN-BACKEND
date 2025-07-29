@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 const mailOptions = {
   from: `"CUMUN 2025 Registration" <${process.env.EMAIL_USER}>`,
   to: process.env.EMAIL_USER,  // replace with recipient email when sending
-  subject: 'Registration Confirmation for CUMUN 2025 – Welcome to Technisia 2025!',
+  subject: 'Registration Confirmation for CUMUN 2025 – Welcome to Technicia 2025!',
   text: `
 Dear [Full Name],
 
@@ -21,7 +21,7 @@ Thank you for registering for CUMUN 2025, a dynamic 3-day Model United Nations c
 Event Details:
 - Event: CUMUN 2025 – Model United Nations Conference
 - Duration: 3 days
-- Part of: Technisia 2025
+- Part of: Technicia 2025
 - Dates: [Insert Event Dates]
 - Venue: [Insert Venue or "Virtual" if online]
 
@@ -42,7 +42,7 @@ We look forward to welcoming you to an inspiring and rewarding CUMUN 2025 experi
 
 Best regards,
 The CUMUN 2025 Team
-Technisia 2025 Organizing Committee
+Technicia 2025 Organizing Committee
 Website: https://mun-iste.vercel.app/
   `,
 };
