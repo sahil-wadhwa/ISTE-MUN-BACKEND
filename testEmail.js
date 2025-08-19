@@ -2,9 +2,11 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: "smtp.titan.email",   // Titan SMTP host
+  port: 465,                  // Use 587 if you prefer TLS
+  secure: true,               // true for 465, false for 587
   auth: {
-    user: process.env.EMAIL_USER,
+    user: process.env.EMAIL_USER, // e.g. "you@yourdomain.com"
     pass: process.env.EMAIL_PASS,
   },
 });
