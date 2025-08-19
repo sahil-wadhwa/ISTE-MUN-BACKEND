@@ -21,7 +21,7 @@ Thank you for registering for CUMUN 2025, a dynamic 3-day Model United Nations c
 Event Details:
 - Event: CUMUN 2025 – Model United Nations Conference
 - Duration: 3 days
-- Part of: Technicia 2025
+- Part of: Technicia'25
 - Dates: [Insert Event Dates]
 - Venue: [Insert Venue or "Virtual" if online]
 
@@ -35,15 +35,15 @@ Important Information:
 - Please carry a valid ID for registration verification.
 - Dress code: Formal business attire or traditional ethnic wear.
 
-For any queries, please contact us at iste.cu@chandigarh.edu or call +91-XXXXXXXXXX.
-Follow us on Instagram: @iste.cuchandigarh for more updates.
+For any queries, please contact us at official@technicia.live or call +91-XXXXXXXXXX.
+Follow us on Instagram: @cumodelunitednations and @iste_cusc for more updates.
 
 We look forward to welcoming you to an inspiring and rewarding CUMUN 2025 experience.
 
 Best regards,
 The CUMUN 2025 Team
 Technicia 2025 Organizing Committee
-Website: https://mun-iste.vercel.app/
+Website: https://cumun.technicia.live/
   `,
 };
 
