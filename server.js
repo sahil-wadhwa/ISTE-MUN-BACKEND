@@ -12,9 +12,11 @@ dotenv.config();
 const app = express();
 app.use(cors({
   origin: [
-    "https://cumun.technicia.live",
-    "http://localhost:3000"
+    "https://cumun.technicia.live",  // your Vercel frontend
+    "http://localhost:3000"          // allow local dev frontend
   ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
 }));
 app.use(express.json()); // Body parser middleware
