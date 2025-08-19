@@ -2,15 +2,12 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.titan.email",   // Titan SMTP host
-  port: 465,                  // Use 587 if you prefer TLS
-  secure: true,               // true for 465, false for 587
+  service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER, // e.g. "you@yourdomain.com"
+    user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
 });
-
 const mailOptions = {
   from: `"CUMUN 2025 Registration" <${process.env.EMAIL_USER}>`,
   to: process.env.EMAIL_USER,  // replace with recipient email when sending
