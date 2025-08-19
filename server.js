@@ -10,12 +10,13 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 dotenv.config();
 
 const app = express();
-app.use(
-  cors({
-    origin: "https://cumun.technicia.live", // or your frontend URL
-    credentials: true,
-  })
-);
+app.use(cors({
+  origin: [
+    "https://cumun.technicia.live",
+    "http://localhost:3000"
+  ],
+  credentials: true,
+}));
 app.use(express.json()); // Body parser middleware
 
 app.use("/api", registrationRoutes);
