@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://www.technicia.live", // or your frontend URL
+    origin: "https://cumun.technicia.live", // or your frontend URL
     credentials: true,
   })
 );
